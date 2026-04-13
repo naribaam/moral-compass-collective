@@ -1,10 +1,12 @@
 import { useNavigation } from "@/contexts/NavigationContext";
 import { Moon, Sun, ArrowRight } from "lucide-react";
+import Footer from "@/components/Footer";
 
 const HomePage = () => {
   const { navigate, isDark, toggleTheme } = useNavigation();
 
   return (
+    <>
     <div className="flex flex-col md:flex-row min-h-screen animate-fade-in">
       {/* Left: Hero */}
       <header
@@ -58,6 +60,8 @@ const HomePage = () => {
         ))}
       </nav>
     </div>
+    <Footer />
+    </>
   );
 };
 
