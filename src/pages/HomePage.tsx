@@ -1,5 +1,6 @@
 import { useNavigation } from "@/contexts/NavigationContext";
 import { Moon, Sun, ArrowRight } from "lucide-react";
+import Footer from "@/components/Footer";
 
 const HomePage = () => {
   const { navigate, isDark, toggleTheme } = useNavigation();
@@ -58,6 +59,8 @@ const HomePage = () => {
         ))}
       </nav>
     </div>
+    <Footer />
+    </>
   );
 };
 
