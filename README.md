@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# WebSite by Nariman
 
-TODO: Document your project here
+TODO: Adil Madiyarov
