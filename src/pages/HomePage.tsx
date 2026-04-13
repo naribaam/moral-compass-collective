@@ -6,6 +6,7 @@ const HomePage = () => {
   const { navigate, isDark, toggleTheme } = useNavigation();
 
   return (
+    <>
     <div className="flex flex-col md:flex-row min-h-screen animate-fade-in">
       {/* Left: Hero */}
       <header
