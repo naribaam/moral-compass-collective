@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div>
           <h3 className="text-primary-foreground text-xl font-heading font-bold mb-4">Связаться с нами</h3>
-          <form action="https://formspree.io/f/placeholder" method="POST" className="flex flex-col gap-3">
+          <form action="https://formspree.io/f/mgorvovv" method="POST" className="flex flex-col gap-3">
             <input name="name" placeholder="Ваше имя" className="rounded-full px-4 py-2.5 bg-muted text-foreground text-sm border border-border" />
             <textarea name="message" placeholder="Сообщение" rows={3} className="rounded-2xl px-4 py-2.5 bg-muted text-foreground text-sm border border-border resize-none" />
             <button type="submit" className="bg-primary text-primary-foreground rounded-full px-6 py-2.5 text-sm font-semibold hover:bg-primary-dark transition-colors w-fit">
